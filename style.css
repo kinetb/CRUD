@@ -12,3 +12,9 @@ th, td {
     border: 1px solid black;
 
 }
+.btn1, .btn2 {
+    color: #fff;
+    background-color: #a86464;
+    margin-inline: 5px;
+    padding: 2px;
+}
