@@ -12,9 +12,34 @@ th, td {
     border: 1px solid black;
 
 }
-.btn1, .btn2 {
+
+.btn1{
+    color: #fff;
+    background-color: #492cb1;
+    padding: 4px;
+    border-radius: 2px;
+    text-decoration: none;
+} 
+
+.btn2 {
     color: #fff;
     background-color: #a86464;
-    margin-inline: 5px;
     padding: 2px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.back {
+    color: #fff;
+    background-color: #414040;
+    padding: 4px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.add{
+    color: #fff;
+    background-color: #492cb1;
+    padding: 4px;
+    border: none;
+    border-radius: 2px;
 }

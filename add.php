@@ -19,6 +19,7 @@ if(isset($_POST['add'])){
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Add</title>
 
 </head>
@@ -31,12 +32,13 @@ if(isset($_POST['add'])){
         <input type="number" name="Age" required>
         <label>Gender</label>
         <input type="text" name="Gender" required>
-        <br>
-        <button type="submit" name="add">Add</button>
+        <br><br>
+        <button type="submit" name="add" class="add">Submit</button>
         <br>
         
     </form>
-    <a href="index.php">Balik</a>
+    <br>
+    <a href="index.php" class="back">Back</a>
 
 
 </body>

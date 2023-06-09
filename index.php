@@ -18,6 +18,8 @@ $row = $list->fetch_assoc();
 </head>
 <body>
     <h1>Record</h1>
+    <a href="add.php" class='btn1'>add</a>
+    <br><br>
     <table>
         <thead>
             <tr>
@@ -35,7 +37,6 @@ $row = $list->fetch_assoc();
                     <td><?php echo $row['age'] ?></td>
                     <td><?php echo $row['gender'] ?></td>
                     <td>
-                        <a href="add.php" class='btn1'>add</a>
                         <a href="index.php" class='btn2'>Delete</a>
                     </td>
 
